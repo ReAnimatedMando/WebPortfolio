@@ -32,6 +32,10 @@ header, main, footer {
     width: 100%;
 }
 
+p {
+    font-size: 1.05em;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -64,13 +68,48 @@ main {
 }
 
 section {
-    gap: 32px;
+    gap: 48px;
 }
 
 .namecontainer {
-    display: flex;
-    flex-direction: column;
     gap: 8px;
 }
 
-/ended day 1 @ 13:26 on video/ 
+.statscontainer {
+    display: flex;
+    align-items: stretch;
+    gap: 24px;
+}
+
+.imgcontainer {
+    border-radius: 100%;
+    max-width: 114px;
+    overflow: hidden;
+}
+
+.imgcontainer img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats>div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stats div i {
+    font-size: 1.4em;
+}
+.stats div div {
+    display: grid;
+    place-items: center;
+    min-width: 4px;
+}
