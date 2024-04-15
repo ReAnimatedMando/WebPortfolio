@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #adf0d4;
-    --secondary-color: #1fd8a4;
+    --primary-color: #65c3eb;
+    --secondary-color: #2984c1;
     --bg-color: #0d1512;
 }
 
@@ -100,6 +100,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 14px;
+    font-size: 0.9em;
 }
 
 .stats>div {
@@ -110,7 +111,7 @@ section {
 }
 
 .stats div i {
-    font-size: 1.4em;
+    font-size: 1.1em;
 }
 .stats div div {
     display: grid;
